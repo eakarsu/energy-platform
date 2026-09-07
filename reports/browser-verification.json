@@ -1,0 +1,11 @@
+{
+  "id": "energy-platform",
+  "status": "passed",
+  "pagesVisited": 469,
+  "minimumRows": 15,
+  "browserCRUD": true,
+  "persistence": true,
+  "mobile": true,
+  "pageErrors": [],
+  "verifiedAt": "2026-09-07T14:40:15.123Z"
+}

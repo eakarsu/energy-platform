@@ -1,0 +1,2049 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "readiness-check",
+      "withdrawal-model",
+      "incident-chronology-draft",
+      "operations-handoff-draft",
+      "warranty-draft",
+      "draft-work-order"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 9 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "readiness-check",
+        "title": "Draft: Queue Readiness Reviewer",
+        "originalPath": "/features/readiness-check"
+      },
+      {
+        "id": "withdrawal-model",
+        "title": "Draft: Withdrawal Risk Modeler",
+        "originalPath": "/features/withdrawal-model"
+      },
+      {
+        "id": "incident-chronology-draft",
+        "title": "Incident chronology draft",
+        "originalPath": "/features/incident-chronology-draft"
+      },
+      {
+        "id": "operations-handoff-draft",
+        "title": "Operations handoff draft",
+        "originalPath": "/features/operations-handoff-draft"
+      },
+      {
+        "id": "warranty-draft",
+        "title": "AI · Warranty Draft",
+        "originalPath": "/features/warranty-draft"
+      },
+      {
+        "id": "draft-work-order",
+        "title": "AI · Draft Work Order",
+        "originalPath": "/features/draft-work-order"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "tolling-agreement-library",
+      "battery-asset-registry",
+      "round-trip-efficiency",
+      "availability-calculation",
+      "energy-throughput-calculation",
+      "counterparty-dispute-workflow",
+      "asset-market-analytics",
+      "bill-ingestion",
+      "meter-registry",
+      "bill-recalculation",
+      "interval-analytics",
+      "dispute-package",
+      "utility-response",
+      "recovery-ledger",
+      "outcome-analytics",
+      "program-tariff-library",
+      "project-subscriber-registry",
+      "meter-production-ingestion",
+      "utility-allocation-file",
+      "low-income-adder",
+      "subscriber-move-handling",
+      "unallocated-production",
+      "utility-dispute-workflow",
+      "project-subscriber-analytics",
+      "site-asset-registry",
+      "interval-meter-ingestion",
+      "baseline-calculation",
+      "event-notification-tracking",
+      "performance-calculation",
+      "dispute-correction-workflow",
+      "site-program-analytics",
+      "electricity-demand-data-center-load-planner",
+      "partner-roaming-agreement-library",
+      "station-evse-registry",
+      "charging-session-ingestion",
+      "tariff-time-of-use-calculation",
+      "dispute-workflow",
+      "station-partner-economics",
+      "supply-contract-library",
+      "site-tank-meter-registry",
+      "product-purity-specification",
+      "volume-meter-ingestion",
+      "minimum-volume-calculation",
+      "supplier-dispute-workflow",
+      "site-product-analytics",
+      "midstream-contract-library",
+      "meter-statement-ingestion",
+      "volume-balancing",
+      "fuel-use-calculation",
+      "shrink-calculation",
+      "ngl-yield-calculation",
+      "netback-reconstruction",
+      "midstream-dispute-workflow",
+      "system-plant-analytics",
+      "franchise-agreement-library",
+      "territory-boundary-mapping",
+      "customer-class-mapping",
+      "gross-receipt-ingestion",
+      "rate-tier-calculation",
+      "bad-debt-treatment",
+      "assessment-notice-workflow",
+      "cash-collection-tracking",
+      "territory-utility-analytics",
+      "pipeline-tariff-library",
+      "contract-point-registry",
+      "nomination-ingestion",
+      "meter-allocation-ingestion",
+      "daily-imbalance-calculation",
+      "fuel-loss-calculation",
+      "point-pipeline-analytics",
+      "operator-and-property-registry",
+      "joa-and-copas-term-library",
+      "jib-statement-ingestion",
+      "working-interest-recalculation",
+      "direct-charge-allowability",
+      "affiliate-and-related-party-review",
+      "recovery-and-operator-analytics",
+      "master-service-agreement-library",
+      "well-job-registry",
+      "work-order-ingestion",
+      "field-ticket-capture",
+      "rate-sheet-calculation",
+      "mobilization-mileage",
+      "vendor-dispute-workflow",
+      "well-vendor-analytics",
+      "rec-contract-library",
+      "product-class-mapping",
+      "transfer-confirmation",
+      "shortfall-penalty-calculation",
+      "registry-dispute-workflow",
+      "ppa-and-amendment-library",
+      "asset-and-meter-registry",
+      "interval-generation-ingestion",
+      "curtailment-event-reconstruction",
+      "deemed-generation-calculation",
+      "liquidated-damages-recovery",
+      "availability-guarantee-tracking",
+      "offtaker-dispute-package",
+      "oandm-warranty-agreement-library",
+      "site-equipment-registry",
+      "weather-irradiance-ingestion",
+      "meter-inverter-telemetry",
+      "expected-generation-model",
+      "curtailment-separation",
+      "performance-ratio-calculation",
+      "response-repair-sla",
+      "liquidated-damages",
+      "warranty-claim-linkage",
+      "provider-claim-package",
+      "site-vendor-analytics",
+      "tank-repair",
+      "operator-training",
+      "leak-test-record-comparison",
+      "component-maintenance-brief",
+      "inventory-variance-explanation",
+      "pole-inventory-registry",
+      "attacher-agreement-library",
+      "attachment-survey-ingestion",
+      "rate-formula-calculation",
+      "carrying-charge-calculation",
+      "joint-use-offset",
+      "back-rent-calculation",
+      "territory-attacher-analytics",
+      "water-balance-registry",
+      "production-meter-ingestion",
+      "district-meter-ingestion",
+      "customer-consumption-ingestion",
+      "authorized-unbilled-use",
+      "meter-under-registration",
+      "unauthorized-consumption",
+      "real-loss-calculation",
+      "leak-event-prioritization",
+      "meter-replacement-economics",
+      "district-loss-analytics",
+      "replacement-timeline",
+      "cell-balance-suggest",
+      "second-life-route",
+      "recycling-quote",
+      "executive-brief",
+      "fleet-health",
+      "customer-soh-report",
+      "pack-quarantine-review",
+      "second-life-suitability",
+      "recycling-stream-route",
+      "demand-response",
+      "smart-meters",
+      "energy-trading",
+      "weather-impact",
+      "wellhead-analytics",
+      "maintenance-window",
+      "asset-lifecycle",
+      "multi-well-portfolio",
+      "equipment-maintenance-without-optimal",
+      "energy-consumption",
+      "solar-panels",
+      "batteries",
+      "utility-rates",
+      "ev-charging",
+      "carbon-tracking",
+      "thermostats",
+      "appliances",
+      "weather-window",
+      "ramp-rate-strategy",
+      "fault-prognostic",
+      "turbine-availability",
+      "inverter-clipping-detect",
+      "vendor-warranty-claim",
+      "ticket-prioritizer",
+      "ppa-shortfall-narrator",
+      "hybrid-storage-co-opt"
+    ],
+    "ai": true,
+    "representativeId": "tolling-agreement-library",
+    "description": "One assistant for 170 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "tolling-agreement-library",
+        "title": "Tolling agreement library",
+        "originalPath": "/features/tolling-agreement-library"
+      },
+      {
+        "id": "battery-asset-registry",
+        "title": "Battery asset registry",
+        "originalPath": "/features/battery-asset-registry"
+      },
+      {
+        "id": "round-trip-efficiency",
+        "title": "Round-trip efficiency",
+        "originalPath": "/features/round-trip-efficiency"
+      },
+      {
+        "id": "availability-calculation",
+        "title": "Availability calculation",
+        "originalPath": "/features/availability-calculation"
+      },
+      {
+        "id": "energy-throughput-calculation",
+        "title": "Energy throughput calculation",
+        "originalPath": "/features/energy-throughput-calculation"
+      },
+      {
+        "id": "counterparty-dispute-workflow",
+        "title": "Counterparty dispute workflow",
+        "originalPath": "/features/counterparty-dispute-workflow"
+      },
+      {
+        "id": "asset-market-analytics",
+        "title": "Asset market analytics",
+        "originalPath": "/features/asset-market-analytics"
+      },
+      {
+        "id": "bill-ingestion",
+        "title": "Utility Bill Ingestion",
+        "originalPath": "/features/bill-ingestion"
+      },
+      {
+        "id": "meter-registry",
+        "title": "Facility, Account & Meter Registry",
+        "originalPath": "/features/meter-registry"
+      },
+      {
+        "id": "bill-recalculation",
+        "title": "Deterministic Bill Recalculation",
+        "originalPath": "/features/bill-recalculation"
+      },
+      {
+        "id": "interval-analytics",
+        "title": "Interval-Usage Analytics",
+        "originalPath": "/features/interval-analytics"
+      },
+      {
+        "id": "dispute-package",
+        "title": "Utility Dispute Package",
+        "originalPath": "/features/dispute-package"
+      },
+      {
+        "id": "utility-response",
+        "title": "Utility Response Management",
+        "originalPath": "/features/utility-response"
+      },
+      {
+        "id": "recovery-ledger",
+        "title": "Utility Recovery Ledger",
+        "originalPath": "/features/recovery-ledger"
+      },
+      {
+        "id": "outcome-analytics",
+        "title": "Portfolio Outcome Analytics",
+        "originalPath": "/features/outcome-analytics"
+      },
+      {
+        "id": "program-tariff-library",
+        "title": "Program tariff library",
+        "originalPath": "/features/program-tariff-library"
+      },
+      {
+        "id": "project-subscriber-registry",
+        "title": "Project subscriber registry",
+        "originalPath": "/features/project-subscriber-registry"
+      },
+      {
+        "id": "meter-production-ingestion",
+        "title": "Meter production ingestion",
+        "originalPath": "/features/meter-production-ingestion"
+      },
+      {
+        "id": "utility-allocation-file",
+        "title": "Utility allocation file",
+        "originalPath": "/features/utility-allocation-file"
+      },
+      {
+        "id": "low-income-adder",
+        "title": "Low-income adder",
+        "originalPath": "/features/low-income-adder"
+      },
+      {
+        "id": "subscriber-move-handling",
+        "title": "Subscriber move handling",
+        "originalPath": "/features/subscriber-move-handling"
+      },
+      {
+        "id": "unallocated-production",
+        "title": "Unallocated production",
+        "originalPath": "/features/unallocated-production"
+      },
+      {
+        "id": "utility-dispute-workflow",
+        "title": "Utility dispute workflow",
+        "originalPath": "/features/utility-dispute-workflow"
+      },
+      {
+        "id": "project-subscriber-analytics",
+        "title": "Project subscriber analytics",
+        "originalPath": "/features/project-subscriber-analytics"
+      },
+      {
+        "id": "site-asset-registry",
+        "title": "Site asset registry",
+        "originalPath": "/features/site-asset-registry"
+      },
+      {
+        "id": "interval-meter-ingestion",
+        "title": "Interval meter ingestion",
+        "originalPath": "/features/interval-meter-ingestion"
+      },
+      {
+        "id": "baseline-calculation",
+        "title": "Baseline calculation",
+        "originalPath": "/features/baseline-calculation"
+      },
+      {
+        "id": "event-notification-tracking",
+        "title": "Event notification tracking",
+        "originalPath": "/features/event-notification-tracking"
+      },
+      {
+        "id": "performance-calculation",
+        "title": "Performance calculation",
+        "originalPath": "/features/performance-calculation"
+      },
+      {
+        "id": "dispute-correction-workflow",
+        "title": "Dispute correction workflow",
+        "originalPath": "/features/dispute-correction-workflow"
+      },
+      {
+        "id": "site-program-analytics",
+        "title": "Site program analytics",
+        "originalPath": "/features/site-program-analytics"
+      },
+      {
+        "id": "electricity-demand-data-center-load-planner",
+        "title": "Electricity demand data center load planner work",
+        "originalPath": "/features/electricity-demand-data-center-load-planner"
+      },
+      {
+        "id": "partner-roaming-agreement-library",
+        "title": "Partner roaming agreement library",
+        "originalPath": "/features/partner-roaming-agreement-library"
+      },
+      {
+        "id": "station-evse-registry",
+        "title": "Station EVSE registry",
+        "originalPath": "/features/station-evse-registry"
+      },
+      {
+        "id": "charging-session-ingestion",
+        "title": "Charging-session ingestion",
+        "originalPath": "/features/charging-session-ingestion"
+      },
+      {
+        "id": "tariff-time-of-use-calculation",
+        "title": "Tariff time-of-use calculation",
+        "originalPath": "/features/tariff-time-of-use-calculation"
+      },
+      {
+        "id": "dispute-workflow",
+        "title": "Dispute workflow",
+        "originalPath": "/features/dispute-workflow"
+      },
+      {
+        "id": "station-partner-economics",
+        "title": "Station partner economics",
+        "originalPath": "/features/station-partner-economics"
+      },
+      {
+        "id": "supply-contract-library",
+        "title": "Supply contract library",
+        "originalPath": "/features/supply-contract-library"
+      },
+      {
+        "id": "site-tank-meter-registry",
+        "title": "Site tank meter registry",
+        "originalPath": "/features/site-tank-meter-registry"
+      },
+      {
+        "id": "product-purity-specification",
+        "title": "Product purity specification",
+        "originalPath": "/features/product-purity-specification"
+      },
+      {
+        "id": "volume-meter-ingestion",
+        "title": "Volume meter ingestion",
+        "originalPath": "/features/volume-meter-ingestion"
+      },
+      {
+        "id": "minimum-volume-calculation",
+        "title": "Minimum volume calculation",
+        "originalPath": "/features/minimum-volume-calculation"
+      },
+      {
+        "id": "supplier-dispute-workflow",
+        "title": "Supplier dispute workflow",
+        "originalPath": "/features/supplier-dispute-workflow"
+      },
+      {
+        "id": "site-product-analytics",
+        "title": "Site product analytics",
+        "originalPath": "/features/site-product-analytics"
+      },
+      {
+        "id": "midstream-contract-library",
+        "title": "Midstream contract library",
+        "originalPath": "/features/midstream-contract-library"
+      },
+      {
+        "id": "meter-statement-ingestion",
+        "title": "Meter statement ingestion",
+        "originalPath": "/features/meter-statement-ingestion"
+      },
+      {
+        "id": "volume-balancing",
+        "title": "Volume balancing",
+        "originalPath": "/features/volume-balancing"
+      },
+      {
+        "id": "fuel-use-calculation",
+        "title": "Fuel use calculation",
+        "originalPath": "/features/fuel-use-calculation"
+      },
+      {
+        "id": "shrink-calculation",
+        "title": "Shrink calculation",
+        "originalPath": "/features/shrink-calculation"
+      },
+      {
+        "id": "ngl-yield-calculation",
+        "title": "NGL yield calculation",
+        "originalPath": "/features/ngl-yield-calculation"
+      },
+      {
+        "id": "netback-reconstruction",
+        "title": "Netback reconstruction",
+        "originalPath": "/features/netback-reconstruction"
+      },
+      {
+        "id": "midstream-dispute-workflow",
+        "title": "Midstream dispute workflow",
+        "originalPath": "/features/midstream-dispute-workflow"
+      },
+      {
+        "id": "system-plant-analytics",
+        "title": "System plant analytics",
+        "originalPath": "/features/system-plant-analytics"
+      },
+      {
+        "id": "franchise-agreement-library",
+        "title": "Franchise agreement library",
+        "originalPath": "/features/franchise-agreement-library"
+      },
+      {
+        "id": "territory-boundary-mapping",
+        "title": "Territory boundary mapping",
+        "originalPath": "/features/territory-boundary-mapping"
+      },
+      {
+        "id": "customer-class-mapping",
+        "title": "Customer class mapping",
+        "originalPath": "/features/customer-class-mapping"
+      },
+      {
+        "id": "gross-receipt-ingestion",
+        "title": "Gross receipt ingestion",
+        "originalPath": "/features/gross-receipt-ingestion"
+      },
+      {
+        "id": "rate-tier-calculation",
+        "title": "Rate tier calculation",
+        "originalPath": "/features/rate-tier-calculation"
+      },
+      {
+        "id": "bad-debt-treatment",
+        "title": "Bad debt treatment",
+        "originalPath": "/features/bad-debt-treatment"
+      },
+      {
+        "id": "assessment-notice-workflow",
+        "title": "Assessment notice workflow",
+        "originalPath": "/features/assessment-notice-workflow"
+      },
+      {
+        "id": "cash-collection-tracking",
+        "title": "Cash collection tracking",
+        "originalPath": "/features/cash-collection-tracking"
+      },
+      {
+        "id": "territory-utility-analytics",
+        "title": "Territory utility analytics",
+        "originalPath": "/features/territory-utility-analytics"
+      },
+      {
+        "id": "pipeline-tariff-library",
+        "title": "Pipeline tariff library",
+        "originalPath": "/features/pipeline-tariff-library"
+      },
+      {
+        "id": "contract-point-registry",
+        "title": "Contract point registry",
+        "originalPath": "/features/contract-point-registry"
+      },
+      {
+        "id": "nomination-ingestion",
+        "title": "Nomination ingestion",
+        "originalPath": "/features/nomination-ingestion"
+      },
+      {
+        "id": "meter-allocation-ingestion",
+        "title": "Meter allocation ingestion",
+        "originalPath": "/features/meter-allocation-ingestion"
+      },
+      {
+        "id": "daily-imbalance-calculation",
+        "title": "Daily imbalance calculation",
+        "originalPath": "/features/daily-imbalance-calculation"
+      },
+      {
+        "id": "fuel-loss-calculation",
+        "title": "Fuel loss calculation",
+        "originalPath": "/features/fuel-loss-calculation"
+      },
+      {
+        "id": "point-pipeline-analytics",
+        "title": "Point pipeline analytics",
+        "originalPath": "/features/point-pipeline-analytics"
+      },
+      {
+        "id": "operator-and-property-registry",
+        "title": "Operator and property registry",
+        "originalPath": "/features/operator-and-property-registry"
+      },
+      {
+        "id": "joa-and-copas-term-library",
+        "title": "JOA and COPAS term library",
+        "originalPath": "/features/joa-and-copas-term-library"
+      },
+      {
+        "id": "jib-statement-ingestion",
+        "title": "JIB statement ingestion",
+        "originalPath": "/features/jib-statement-ingestion"
+      },
+      {
+        "id": "working-interest-recalculation",
+        "title": "Working-interest recalculation",
+        "originalPath": "/features/working-interest-recalculation"
+      },
+      {
+        "id": "direct-charge-allowability",
+        "title": "Direct-charge allowability",
+        "originalPath": "/features/direct-charge-allowability"
+      },
+      {
+        "id": "affiliate-and-related-party-review",
+        "title": "Affiliate and related-party review",
+        "originalPath": "/features/affiliate-and-related-party-review"
+      },
+      {
+        "id": "recovery-and-operator-analytics",
+        "title": "Recovery and operator analytics",
+        "originalPath": "/features/recovery-and-operator-analytics"
+      },
+      {
+        "id": "master-service-agreement-library",
+        "title": "Master service agreement library",
+        "originalPath": "/features/master-service-agreement-library"
+      },
+      {
+        "id": "well-job-registry",
+        "title": "Well job registry",
+        "originalPath": "/features/well-job-registry"
+      },
+      {
+        "id": "work-order-ingestion",
+        "title": "Work order ingestion",
+        "originalPath": "/features/work-order-ingestion"
+      },
+      {
+        "id": "field-ticket-capture",
+        "title": "Field ticket capture",
+        "originalPath": "/features/field-ticket-capture"
+      },
+      {
+        "id": "rate-sheet-calculation",
+        "title": "Rate sheet calculation",
+        "originalPath": "/features/rate-sheet-calculation"
+      },
+      {
+        "id": "mobilization-mileage",
+        "title": "Mobilization mileage",
+        "originalPath": "/features/mobilization-mileage"
+      },
+      {
+        "id": "vendor-dispute-workflow",
+        "title": "Vendor dispute workflow",
+        "originalPath": "/features/vendor-dispute-workflow"
+      },
+      {
+        "id": "well-vendor-analytics",
+        "title": "Well vendor analytics",
+        "originalPath": "/features/well-vendor-analytics"
+      },
+      {
+        "id": "rec-contract-library",
+        "title": "REC contract library",
+        "originalPath": "/features/rec-contract-library"
+      },
+      {
+        "id": "product-class-mapping",
+        "title": "Product class mapping",
+        "originalPath": "/features/product-class-mapping"
+      },
+      {
+        "id": "transfer-confirmation",
+        "title": "Transfer confirmation",
+        "originalPath": "/features/transfer-confirmation"
+      },
+      {
+        "id": "shortfall-penalty-calculation",
+        "title": "Shortfall penalty calculation",
+        "originalPath": "/features/shortfall-penalty-calculation"
+      },
+      {
+        "id": "registry-dispute-workflow",
+        "title": "Registry dispute workflow",
+        "originalPath": "/features/registry-dispute-workflow"
+      },
+      {
+        "id": "ppa-and-amendment-library",
+        "title": "PPA and amendment library",
+        "originalPath": "/features/ppa-and-amendment-library"
+      },
+      {
+        "id": "asset-and-meter-registry",
+        "title": "Asset and meter registry",
+        "originalPath": "/features/asset-and-meter-registry"
+      },
+      {
+        "id": "interval-generation-ingestion",
+        "title": "Interval generation ingestion",
+        "originalPath": "/features/interval-generation-ingestion"
+      },
+      {
+        "id": "curtailment-event-reconstruction",
+        "title": "Curtailment event reconstruction",
+        "originalPath": "/features/curtailment-event-reconstruction"
+      },
+      {
+        "id": "deemed-generation-calculation",
+        "title": "Deemed-generation calculation",
+        "originalPath": "/features/deemed-generation-calculation"
+      },
+      {
+        "id": "liquidated-damages-recovery",
+        "title": "Liquidated-damages recovery",
+        "originalPath": "/features/liquidated-damages-recovery"
+      },
+      {
+        "id": "availability-guarantee-tracking",
+        "title": "Availability guarantee tracking",
+        "originalPath": "/features/availability-guarantee-tracking"
+      },
+      {
+        "id": "offtaker-dispute-package",
+        "title": "Offtaker dispute package",
+        "originalPath": "/features/offtaker-dispute-package"
+      },
+      {
+        "id": "oandm-warranty-agreement-library",
+        "title": "O&M warranty agreement library",
+        "originalPath": "/features/oandm-warranty-agreement-library"
+      },
+      {
+        "id": "site-equipment-registry",
+        "title": "Site equipment registry",
+        "originalPath": "/features/site-equipment-registry"
+      },
+      {
+        "id": "weather-irradiance-ingestion",
+        "title": "Weather irradiance ingestion",
+        "originalPath": "/features/weather-irradiance-ingestion"
+      },
+      {
+        "id": "meter-inverter-telemetry",
+        "title": "Meter inverter telemetry",
+        "originalPath": "/features/meter-inverter-telemetry"
+      },
+      {
+        "id": "expected-generation-model",
+        "title": "Expected generation model",
+        "originalPath": "/features/expected-generation-model"
+      },
+      {
+        "id": "curtailment-separation",
+        "title": "Curtailment separation",
+        "originalPath": "/features/curtailment-separation"
+      },
+      {
+        "id": "performance-ratio-calculation",
+        "title": "Performance ratio calculation",
+        "originalPath": "/features/performance-ratio-calculation"
+      },
+      {
+        "id": "response-repair-sla",
+        "title": "Response repair SLA",
+        "originalPath": "/features/response-repair-sla"
+      },
+      {
+        "id": "liquidated-damages",
+        "title": "Liquidated damages",
+        "originalPath": "/features/liquidated-damages"
+      },
+      {
+        "id": "warranty-claim-linkage",
+        "title": "Warranty claim linkage",
+        "originalPath": "/features/warranty-claim-linkage"
+      },
+      {
+        "id": "provider-claim-package",
+        "title": "Provider claim package",
+        "originalPath": "/features/provider-claim-package"
+      },
+      {
+        "id": "site-vendor-analytics",
+        "title": "Site vendor analytics",
+        "originalPath": "/features/site-vendor-analytics"
+      },
+      {
+        "id": "tank-repair",
+        "title": "Tank Repair",
+        "originalPath": "/features/tank-repair"
+      },
+      {
+        "id": "operator-training",
+        "title": "Operator Training",
+        "originalPath": "/features/operator-training"
+      },
+      {
+        "id": "leak-test-record-comparison",
+        "title": "Leak test record comparison",
+        "originalPath": "/features/leak-test-record-comparison"
+      },
+      {
+        "id": "component-maintenance-brief",
+        "title": "Component maintenance brief",
+        "originalPath": "/features/component-maintenance-brief"
+      },
+      {
+        "id": "inventory-variance-explanation",
+        "title": "Inventory variance explanation",
+        "originalPath": "/features/inventory-variance-explanation"
+      },
+      {
+        "id": "pole-inventory-registry",
+        "title": "Pole inventory registry",
+        "originalPath": "/features/pole-inventory-registry"
+      },
+      {
+        "id": "attacher-agreement-library",
+        "title": "Attacher agreement library",
+        "originalPath": "/features/attacher-agreement-library"
+      },
+      {
+        "id": "attachment-survey-ingestion",
+        "title": "Attachment survey ingestion",
+        "originalPath": "/features/attachment-survey-ingestion"
+      },
+      {
+        "id": "rate-formula-calculation",
+        "title": "Rate formula calculation",
+        "originalPath": "/features/rate-formula-calculation"
+      },
+      {
+        "id": "carrying-charge-calculation",
+        "title": "Carrying charge calculation",
+        "originalPath": "/features/carrying-charge-calculation"
+      },
+      {
+        "id": "joint-use-offset",
+        "title": "Joint-use offset",
+        "originalPath": "/features/joint-use-offset"
+      },
+      {
+        "id": "back-rent-calculation",
+        "title": "Back-rent calculation",
+        "originalPath": "/features/back-rent-calculation"
+      },
+      {
+        "id": "territory-attacher-analytics",
+        "title": "Territory attacher analytics",
+        "originalPath": "/features/territory-attacher-analytics"
+      },
+      {
+        "id": "water-balance-registry",
+        "title": "Water balance registry",
+        "originalPath": "/features/water-balance-registry"
+      },
+      {
+        "id": "production-meter-ingestion",
+        "title": "Production meter ingestion",
+        "originalPath": "/features/production-meter-ingestion"
+      },
+      {
+        "id": "district-meter-ingestion",
+        "title": "District meter ingestion",
+        "originalPath": "/features/district-meter-ingestion"
+      },
+      {
+        "id": "customer-consumption-ingestion",
+        "title": "Customer consumption ingestion",
+        "originalPath": "/features/customer-consumption-ingestion"
+      },
+      {
+        "id": "authorized-unbilled-use",
+        "title": "Authorized unbilled use",
+        "originalPath": "/features/authorized-unbilled-use"
+      },
+      {
+        "id": "meter-under-registration",
+        "title": "Meter under-registration",
+        "originalPath": "/features/meter-under-registration"
+      },
+      {
+        "id": "unauthorized-consumption",
+        "title": "Unauthorized consumption",
+        "originalPath": "/features/unauthorized-consumption"
+      },
+      {
+        "id": "real-loss-calculation",
+        "title": "Real loss calculation",
+        "originalPath": "/features/real-loss-calculation"
+      },
+      {
+        "id": "leak-event-prioritization",
+        "title": "Leak event prioritization",
+        "originalPath": "/features/leak-event-prioritization"
+      },
+      {
+        "id": "meter-replacement-economics",
+        "title": "Meter replacement economics",
+        "originalPath": "/features/meter-replacement-economics"
+      },
+      {
+        "id": "district-loss-analytics",
+        "title": "District loss analytics",
+        "originalPath": "/features/district-loss-analytics"
+      },
+      {
+        "id": "replacement-timeline",
+        "title": "AI · Replacement Timeline",
+        "originalPath": "/features/replacement-timeline"
+      },
+      {
+        "id": "cell-balance-suggest",
+        "title": "AI · Cell Balance Suggest",
+        "originalPath": "/features/cell-balance-suggest"
+      },
+      {
+        "id": "second-life-route",
+        "title": "AI · Second-Life Route",
+        "originalPath": "/features/second-life-route"
+      },
+      {
+        "id": "recycling-quote",
+        "title": "AI · Recycling Quote",
+        "originalPath": "/features/recycling-quote"
+      },
+      {
+        "id": "executive-brief",
+        "title": "AI · Executive Brief",
+        "originalPath": "/features/executive-brief"
+      },
+      {
+        "id": "fleet-health",
+        "title": "AI · Fleet Health",
+        "originalPath": "/features/fleet-health"
+      },
+      {
+        "id": "customer-soh-report",
+        "title": "AI · Customer SoH Report",
+        "originalPath": "/features/customer-soh-report"
+      },
+      {
+        "id": "pack-quarantine-review",
+        "title": "Pack quarantine review",
+        "originalPath": "/features/pack-quarantine-review"
+      },
+      {
+        "id": "second-life-suitability",
+        "title": "Second life suitability",
+        "originalPath": "/features/second-life-suitability"
+      },
+      {
+        "id": "recycling-stream-route",
+        "title": "Recycling stream route",
+        "originalPath": "/features/recycling-stream-route"
+      },
+      {
+        "id": "demand-response",
+        "title": "Demand Response",
+        "originalPath": "/features/demand-response"
+      },
+      {
+        "id": "smart-meters",
+        "title": "Smart Meters",
+        "originalPath": "/features/smart-meters"
+      },
+      {
+        "id": "energy-trading",
+        "title": "Energy Trading",
+        "originalPath": "/features/energy-trading"
+      },
+      {
+        "id": "weather-impact",
+        "title": "Weather Impact",
+        "originalPath": "/features/weather-impact"
+      },
+      {
+        "id": "wellhead-analytics",
+        "title": "Wellhead Analytics",
+        "originalPath": "/features/wellhead-analytics"
+      },
+      {
+        "id": "maintenance-window",
+        "title": "Optimal Maintenance Window",
+        "originalPath": "/features/maintenance-window"
+      },
+      {
+        "id": "asset-lifecycle",
+        "title": "Asset Lifecycle Tracking",
+        "originalPath": "/features/asset-lifecycle"
+      },
+      {
+        "id": "multi-well-portfolio",
+        "title": "Multi-Well Portfolio",
+        "originalPath": "/features/multi-well-portfolio"
+      },
+      {
+        "id": "equipment-maintenance-without-optimal",
+        "title": "equipment maintenance without optimal",
+        "originalPath": "/features/equipment-maintenance-without-optimal"
+      },
+      {
+        "id": "energy-consumption",
+        "title": "Energy Consumption",
+        "originalPath": "/features/energy-consumption"
+      },
+      {
+        "id": "solar-panels",
+        "title": "Solar Panels",
+        "originalPath": "/features/solar-panels"
+      },
+      {
+        "id": "batteries",
+        "title": "Battery Management",
+        "originalPath": "/features/batteries"
+      },
+      {
+        "id": "utility-rates",
+        "title": "Utility Rates",
+        "originalPath": "/features/utility-rates"
+      },
+      {
+        "id": "ev-charging",
+        "title": "EV Charging",
+        "originalPath": "/features/ev-charging"
+      },
+      {
+        "id": "carbon-tracking",
+        "title": "Carbon Tracking",
+        "originalPath": "/features/carbon-tracking"
+      },
+      {
+        "id": "thermostats",
+        "title": "Thermostats",
+        "originalPath": "/features/thermostats"
+      },
+      {
+        "id": "appliances",
+        "title": "Appliance Efficiency",
+        "originalPath": "/features/appliances"
+      },
+      {
+        "id": "weather-window",
+        "title": "AI · Weather Window",
+        "originalPath": "/features/weather-window"
+      },
+      {
+        "id": "ramp-rate-strategy",
+        "title": "AI · Ramp-Rate Strategy",
+        "originalPath": "/features/ramp-rate-strategy"
+      },
+      {
+        "id": "fault-prognostic",
+        "title": "AI · Fault Prognostic",
+        "originalPath": "/features/fault-prognostic"
+      },
+      {
+        "id": "turbine-availability",
+        "title": "AI · Turbine Availability",
+        "originalPath": "/features/turbine-availability"
+      },
+      {
+        "id": "inverter-clipping-detect",
+        "title": "AI · Inverter Clipping",
+        "originalPath": "/features/inverter-clipping-detect"
+      },
+      {
+        "id": "vendor-warranty-claim",
+        "title": "AI · Vendor Warranty Claim",
+        "originalPath": "/features/vendor-warranty-claim"
+      },
+      {
+        "id": "ticket-prioritizer",
+        "title": "Ticket prioritizer",
+        "originalPath": "/features/ticket-prioritizer"
+      },
+      {
+        "id": "ppa-shortfall-narrator",
+        "title": "Ppa shortfall narrator",
+        "originalPath": "/features/ppa-shortfall-narrator"
+      },
+      {
+        "id": "hybrid-storage-co-opt",
+        "title": "Hybrid storage co opt",
+        "originalPath": "/features/hybrid-storage-co-opt"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "capacity-commitment",
+      "dispatch-instruction-ingestion",
+      "tariff-library",
+      "enrollment-capacity-commitment",
+      "capacity-payment",
+      "scheduled-quantity-tracking",
+      "delivery-schedule-control",
+      "capacity-fade-explain",
+      "dispatch-optimize",
+      "maintenance-schedule",
+      "preventive-maintenance-scheduling",
+      "equipment-scheduling",
+      "schedule-maintenance",
+      "dispatch-confidence"
+    ],
+    "ai": true,
+    "representativeId": "capacity-commitment",
+    "description": "One assistant for 14 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "capacity-commitment",
+        "title": "Capacity commitment",
+        "originalPath": "/features/capacity-commitment"
+      },
+      {
+        "id": "dispatch-instruction-ingestion",
+        "title": "Dispatch instruction ingestion",
+        "originalPath": "/features/dispatch-instruction-ingestion"
+      },
+      {
+        "id": "tariff-library",
+        "title": "Tariff & Rate-Schedule Library",
+        "originalPath": "/features/tariff-library"
+      },
+      {
+        "id": "enrollment-capacity-commitment",
+        "title": "Enrollment capacity commitment",
+        "originalPath": "/features/enrollment-capacity-commitment"
+      },
+      {
+        "id": "capacity-payment",
+        "title": "Capacity payment",
+        "originalPath": "/features/capacity-payment"
+      },
+      {
+        "id": "scheduled-quantity-tracking",
+        "title": "Scheduled quantity tracking",
+        "originalPath": "/features/scheduled-quantity-tracking"
+      },
+      {
+        "id": "delivery-schedule-control",
+        "title": "Delivery schedule control",
+        "originalPath": "/features/delivery-schedule-control"
+      },
+      {
+        "id": "capacity-fade-explain",
+        "title": "AI · Capacity Fade Explain",
+        "originalPath": "/features/capacity-fade-explain"
+      },
+      {
+        "id": "dispatch-optimize",
+        "title": "AI · Dispatch Optimize",
+        "originalPath": "/features/dispatch-optimize"
+      },
+      {
+        "id": "maintenance-schedule",
+        "title": "Maintenance Scheduling",
+        "originalPath": "/features/maintenance-schedule"
+      },
+      {
+        "id": "preventive-maintenance-scheduling",
+        "title": "preventive maintenance scheduling",
+        "originalPath": "/features/preventive-maintenance-scheduling"
+      },
+      {
+        "id": "equipment-scheduling",
+        "title": "Equipment Scheduling",
+        "originalPath": "/features/equipment-scheduling"
+      },
+      {
+        "id": "schedule-maintenance",
+        "title": "AI · Schedule Maintenance",
+        "originalPath": "/features/schedule-maintenance"
+      },
+      {
+        "id": "dispatch-confidence",
+        "title": "Dispatch confidence",
+        "originalPath": "/features/dispatch-confidence"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "telemetry-validation",
+      "performance-penalty-audit",
+      "subscription-allocation-control",
+      "penalty-validation",
+      "metered-energy-validation",
+      "roaming-markup-audit",
+      "failed-partial-session-control",
+      "take-or-pay-validation",
+      "tank-rental-validation",
+      "emergency-delivery-audit",
+      "energy-surcharge-audit",
+      "gas-quality-adjustment",
+      "utility-audit-request",
+      "balancing-agreement-control",
+      "division-of-interest-validation",
+      "overhead-rate-validation",
+      "field-ticket-evidence-matching",
+      "operator-exception-package",
+      "audit-deadline-and-response-tracking",
+      "crew-hour-validation",
+      "equipment-hour-validation",
+      "standby-time-audit",
+      "fuel-surcharge-control",
+      "asset-eligibility-registry",
+      "vintage-validation",
+      "retirement-evidence",
+      "basis-and-loss-factor-validation",
+      "excluded-event-validation",
+      "inspection-report-extraction",
+      "operator-evidence-checklist",
+      "evidence-completeness-review",
+      "space-factor-validation",
+      "thermal-risk",
+      "anomaly-cluster",
+      "vendor-quality-score",
+      "thermal-anomaly-detect",
+      "production-anomaly",
+      "sensor-anomaly-batch",
+      "environmental-compliance-assistant",
+      "blade-inspection-summary",
+      "drone-blade-inspection"
+    ],
+    "ai": true,
+    "representativeId": "telemetry-validation",
+    "description": "One assistant for 41 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "telemetry-validation",
+        "title": "Telemetry validation",
+        "originalPath": "/features/telemetry-validation"
+      },
+      {
+        "id": "performance-penalty-audit",
+        "title": "Performance penalty audit",
+        "originalPath": "/features/performance-penalty-audit"
+      },
+      {
+        "id": "subscription-allocation-control",
+        "title": "Subscription allocation control",
+        "originalPath": "/features/subscription-allocation-control"
+      },
+      {
+        "id": "penalty-validation",
+        "title": "Penalty validation",
+        "originalPath": "/features/penalty-validation"
+      },
+      {
+        "id": "metered-energy-validation",
+        "title": "Metered energy validation",
+        "originalPath": "/features/metered-energy-validation"
+      },
+      {
+        "id": "roaming-markup-audit",
+        "title": "Roaming markup audit",
+        "originalPath": "/features/roaming-markup-audit"
+      },
+      {
+        "id": "failed-partial-session-control",
+        "title": "Failed partial session control",
+        "originalPath": "/features/failed-partial-session-control"
+      },
+      {
+        "id": "take-or-pay-validation",
+        "title": "Take-or-pay validation",
+        "originalPath": "/features/take-or-pay-validation"
+      },
+      {
+        "id": "tank-rental-validation",
+        "title": "Tank rental validation",
+        "originalPath": "/features/tank-rental-validation"
+      },
+      {
+        "id": "emergency-delivery-audit",
+        "title": "Emergency delivery audit",
+        "originalPath": "/features/emergency-delivery-audit"
+      },
+      {
+        "id": "energy-surcharge-audit",
+        "title": "Energy surcharge audit",
+        "originalPath": "/features/energy-surcharge-audit"
+      },
+      {
+        "id": "gas-quality-adjustment",
+        "title": "Gas quality adjustment",
+        "originalPath": "/features/gas-quality-adjustment"
+      },
+      {
+        "id": "utility-audit-request",
+        "title": "Utility audit request",
+        "originalPath": "/features/utility-audit-request"
+      },
+      {
+        "id": "balancing-agreement-control",
+        "title": "Balancing agreement control",
+        "originalPath": "/features/balancing-agreement-control"
+      },
+      {
+        "id": "division-of-interest-validation",
+        "title": "Division-of-interest validation",
+        "originalPath": "/features/division-of-interest-validation"
+      },
+      {
+        "id": "overhead-rate-validation",
+        "title": "Overhead-rate validation",
+        "originalPath": "/features/overhead-rate-validation"
+      },
+      {
+        "id": "field-ticket-evidence-matching",
+        "title": "Field-ticket evidence matching",
+        "originalPath": "/features/field-ticket-evidence-matching"
+      },
+      {
+        "id": "operator-exception-package",
+        "title": "Operator exception package",
+        "originalPath": "/features/operator-exception-package"
+      },
+      {
+        "id": "audit-deadline-and-response-tracking",
+        "title": "Audit deadline and response tracking",
+        "originalPath": "/features/audit-deadline-and-response-tracking"
+      },
+      {
+        "id": "crew-hour-validation",
+        "title": "Crew hour validation",
+        "originalPath": "/features/crew-hour-validation"
+      },
+      {
+        "id": "equipment-hour-validation",
+        "title": "Equipment hour validation",
+        "originalPath": "/features/equipment-hour-validation"
+      },
+      {
+        "id": "standby-time-audit",
+        "title": "Standby time audit",
+        "originalPath": "/features/standby-time-audit"
+      },
+      {
+        "id": "fuel-surcharge-control",
+        "title": "Fuel surcharge control",
+        "originalPath": "/features/fuel-surcharge-control"
+      },
+      {
+        "id": "asset-eligibility-registry",
+        "title": "Asset eligibility registry",
+        "originalPath": "/features/asset-eligibility-registry"
+      },
+      {
+        "id": "vintage-validation",
+        "title": "Vintage validation",
+        "originalPath": "/features/vintage-validation"
+      },
+      {
+        "id": "retirement-evidence",
+        "title": "Retirement evidence",
+        "originalPath": "/features/retirement-evidence"
+      },
+      {
+        "id": "basis-and-loss-factor-validation",
+        "title": "Basis and loss-factor validation",
+        "originalPath": "/features/basis-and-loss-factor-validation"
+      },
+      {
+        "id": "excluded-event-validation",
+        "title": "Excluded event validation",
+        "originalPath": "/features/excluded-event-validation"
+      },
+      {
+        "id": "inspection-report-extraction",
+        "title": "Inspection report extraction",
+        "originalPath": "/features/inspection-report-extraction"
+      },
+      {
+        "id": "operator-evidence-checklist",
+        "title": "Operator evidence checklist",
+        "originalPath": "/features/operator-evidence-checklist"
+      },
+      {
+        "id": "evidence-completeness-review",
+        "title": "Evidence completeness review",
+        "originalPath": "/features/evidence-completeness-review"
+      },
+      {
+        "id": "space-factor-validation",
+        "title": "Space factor validation",
+        "originalPath": "/features/space-factor-validation"
+      },
+      {
+        "id": "thermal-risk",
+        "title": "AI · Thermal Risk",
+        "originalPath": "/features/thermal-risk"
+      },
+      {
+        "id": "anomaly-cluster",
+        "title": "AI · Anomaly Cluster",
+        "originalPath": "/features/anomaly-cluster"
+      },
+      {
+        "id": "vendor-quality-score",
+        "title": "AI · Vendor Quality Score",
+        "originalPath": "/features/vendor-quality-score"
+      },
+      {
+        "id": "thermal-anomaly-detect",
+        "title": "Thermal anomaly detect",
+        "originalPath": "/features/thermal-anomaly-detect"
+      },
+      {
+        "id": "production-anomaly",
+        "title": "Production Anomaly",
+        "originalPath": "/features/production-anomaly"
+      },
+      {
+        "id": "sensor-anomaly-batch",
+        "title": "Sensor Anomaly Batch",
+        "originalPath": "/features/sensor-anomaly-batch"
+      },
+      {
+        "id": "environmental-compliance-assistant",
+        "title": "environmental compliance assistant",
+        "originalPath": "/features/environmental-compliance-assistant"
+      },
+      {
+        "id": "blade-inspection-summary",
+        "title": "AI · Blade Inspection",
+        "originalPath": "/features/blade-inspection-summary"
+      },
+      {
+        "id": "drone-blade-inspection",
+        "title": "Drone blade inspection",
+        "originalPath": "/features/drone-blade-inspection"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "state-of-charge-reconciliation",
+      "market-revenue-allocation",
+      "settlement-statement-matching",
+      "cash-reconciliation",
+      "billing-errors",
+      "credits-incentives",
+      "preventive-alerts",
+      "bill-credit-calculation",
+      "subscription-fee-calculation",
+      "subscriber-invoice-reconciliation",
+      "availability-payment",
+      "aggregator-fee-audit",
+      "payment-reconciliation",
+      "session-fee-calculation",
+      "tax-currency-treatment",
+      "refund-adjustment-control",
+      "partner-settlement-reconciliation",
+      "network-fee-audit",
+      "cost-allocate",
+      "index-price-calculation",
+      "delivery-fee-audit",
+      "invoice-recalculation",
+      "processing-fee-validation",
+      "ngl-price-validation",
+      "residue-gas-settlement",
+      "gathering-fee-audit",
+      "excluded-revenue-validation",
+      "affiliate-revenue-review",
+      "return-period-reconciliation",
+      "underpayment-calculation",
+      "cash-out-price-validation",
+      "transport-fee-audit",
+      "storage-fee-audit",
+      "pipeline-statement-reconciliation",
+      "afe-authority-and-budget-control",
+      "material-transfer-pricing-audit",
+      "invoice-ticket-matching",
+      "credit-reconciliation",
+      "market-price-calculation",
+      "invoice-settlement-matching",
+      "iso-settlement-ingestion",
+      "contract-price-recalculation",
+      "rec-delivery-reconciliation",
+      "invoice-and-settlement-matching",
+      "receivable-and-credit-tracking",
+      "revenue-and-curtailment-analytics",
+      "credit-tracking",
+      "make-ready-cost-recovery",
+      "attacher-invoice-generation",
+      "billing-correction-workflow",
+      "recovered-revenue-tracking",
+      "ppa-revenue-forecast",
+      "cost-analysis",
+      "ppa-settlement"
+    ],
+    "ai": true,
+    "representativeId": "state-of-charge-reconciliation",
+    "description": "One assistant for 54 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "state-of-charge-reconciliation",
+        "title": "State-of-charge reconciliation",
+        "originalPath": "/features/state-of-charge-reconciliation"
+      },
+      {
+        "id": "market-revenue-allocation",
+        "title": "Market revenue allocation",
+        "originalPath": "/features/market-revenue-allocation"
+      },
+      {
+        "id": "settlement-statement-matching",
+        "title": "Settlement statement matching",
+        "originalPath": "/features/settlement-statement-matching"
+      },
+      {
+        "id": "cash-reconciliation",
+        "title": "Cash reconciliation",
+        "originalPath": "/features/cash-reconciliation"
+      },
+      {
+        "id": "billing-errors",
+        "title": "Billing Error Detection",
+        "originalPath": "/features/billing-errors"
+      },
+      {
+        "id": "credits-incentives",
+        "title": "Credit & Incentive Eligibility",
+        "originalPath": "/features/credits-incentives"
+      },
+      {
+        "id": "preventive-alerts",
+        "title": "Preventive Billing Alerts",
+        "originalPath": "/features/preventive-alerts"
+      },
+      {
+        "id": "bill-credit-calculation",
+        "title": "Bill credit calculation",
+        "originalPath": "/features/bill-credit-calculation"
+      },
+      {
+        "id": "subscription-fee-calculation",
+        "title": "Subscription fee calculation",
+        "originalPath": "/features/subscription-fee-calculation"
+      },
+      {
+        "id": "subscriber-invoice-reconciliation",
+        "title": "Subscriber invoice reconciliation",
+        "originalPath": "/features/subscriber-invoice-reconciliation"
+      },
+      {
+        "id": "availability-payment",
+        "title": "Availability payment",
+        "originalPath": "/features/availability-payment"
+      },
+      {
+        "id": "aggregator-fee-audit",
+        "title": "Aggregator fee audit",
+        "originalPath": "/features/aggregator-fee-audit"
+      },
+      {
+        "id": "payment-reconciliation",
+        "title": "Payment reconciliation",
+        "originalPath": "/features/payment-reconciliation"
+      },
+      {
+        "id": "session-fee-calculation",
+        "title": "Session fee calculation",
+        "originalPath": "/features/session-fee-calculation"
+      },
+      {
+        "id": "tax-currency-treatment",
+        "title": "Tax currency treatment",
+        "originalPath": "/features/tax-currency-treatment"
+      },
+      {
+        "id": "refund-adjustment-control",
+        "title": "Refund adjustment control",
+        "originalPath": "/features/refund-adjustment-control"
+      },
+      {
+        "id": "partner-settlement-reconciliation",
+        "title": "Partner settlement reconciliation",
+        "originalPath": "/features/partner-settlement-reconciliation"
+      },
+      {
+        "id": "network-fee-audit",
+        "title": "Network fee audit",
+        "originalPath": "/features/network-fee-audit"
+      },
+      {
+        "id": "cost-allocate",
+        "title": "Draft: Upgrade Cost Allocator",
+        "originalPath": "/features/cost-allocate"
+      },
+      {
+        "id": "index-price-calculation",
+        "title": "Index price calculation",
+        "originalPath": "/features/index-price-calculation"
+      },
+      {
+        "id": "delivery-fee-audit",
+        "title": "Delivery fee audit",
+        "originalPath": "/features/delivery-fee-audit"
+      },
+      {
+        "id": "invoice-recalculation",
+        "title": "Invoice recalculation",
+        "originalPath": "/features/invoice-recalculation"
+      },
+      {
+        "id": "processing-fee-validation",
+        "title": "Processing fee validation",
+        "originalPath": "/features/processing-fee-validation"
+      },
+      {
+        "id": "ngl-price-validation",
+        "title": "NGL price validation",
+        "originalPath": "/features/ngl-price-validation"
+      },
+      {
+        "id": "residue-gas-settlement",
+        "title": "Residue gas settlement",
+        "originalPath": "/features/residue-gas-settlement"
+      },
+      {
+        "id": "gathering-fee-audit",
+        "title": "Gathering fee audit",
+        "originalPath": "/features/gathering-fee-audit"
+      },
+      {
+        "id": "excluded-revenue-validation",
+        "title": "Excluded revenue validation",
+        "originalPath": "/features/excluded-revenue-validation"
+      },
+      {
+        "id": "affiliate-revenue-review",
+        "title": "Affiliate revenue review",
+        "originalPath": "/features/affiliate-revenue-review"
+      },
+      {
+        "id": "return-period-reconciliation",
+        "title": "Return period reconciliation",
+        "originalPath": "/features/return-period-reconciliation"
+      },
+      {
+        "id": "underpayment-calculation",
+        "title": "Underpayment calculation",
+        "originalPath": "/features/underpayment-calculation"
+      },
+      {
+        "id": "cash-out-price-validation",
+        "title": "Cash-out price validation",
+        "originalPath": "/features/cash-out-price-validation"
+      },
+      {
+        "id": "transport-fee-audit",
+        "title": "Transport fee audit",
+        "originalPath": "/features/transport-fee-audit"
+      },
+      {
+        "id": "storage-fee-audit",
+        "title": "Storage fee audit",
+        "originalPath": "/features/storage-fee-audit"
+      },
+      {
+        "id": "pipeline-statement-reconciliation",
+        "title": "Pipeline statement reconciliation",
+        "originalPath": "/features/pipeline-statement-reconciliation"
+      },
+      {
+        "id": "afe-authority-and-budget-control",
+        "title": "AFE authority and budget control",
+        "originalPath": "/features/afe-authority-and-budget-control"
+      },
+      {
+        "id": "material-transfer-pricing-audit",
+        "title": "Material transfer pricing audit",
+        "originalPath": "/features/material-transfer-pricing-audit"
+      },
+      {
+        "id": "invoice-ticket-matching",
+        "title": "Invoice ticket matching",
+        "originalPath": "/features/invoice-ticket-matching"
+      },
+      {
+        "id": "credit-reconciliation",
+        "title": "Credit reconciliation",
+        "originalPath": "/features/credit-reconciliation"
+      },
+      {
+        "id": "market-price-calculation",
+        "title": "Market price calculation",
+        "originalPath": "/features/market-price-calculation"
+      },
+      {
+        "id": "invoice-settlement-matching",
+        "title": "Invoice settlement matching",
+        "originalPath": "/features/invoice-settlement-matching"
+      },
+      {
+        "id": "iso-settlement-ingestion",
+        "title": "ISO settlement ingestion",
+        "originalPath": "/features/iso-settlement-ingestion"
+      },
+      {
+        "id": "contract-price-recalculation",
+        "title": "Contract price recalculation",
+        "originalPath": "/features/contract-price-recalculation"
+      },
+      {
+        "id": "rec-delivery-reconciliation",
+        "title": "REC delivery reconciliation",
+        "originalPath": "/features/rec-delivery-reconciliation"
+      },
+      {
+        "id": "invoice-and-settlement-matching",
+        "title": "Invoice and settlement matching",
+        "originalPath": "/features/invoice-and-settlement-matching"
+      },
+      {
+        "id": "receivable-and-credit-tracking",
+        "title": "Receivable and credit tracking",
+        "originalPath": "/features/receivable-and-credit-tracking"
+      },
+      {
+        "id": "revenue-and-curtailment-analytics",
+        "title": "Revenue and curtailment analytics",
+        "originalPath": "/features/revenue-and-curtailment-analytics"
+      },
+      {
+        "id": "credit-tracking",
+        "title": "Credit tracking",
+        "originalPath": "/features/credit-tracking"
+      },
+      {
+        "id": "make-ready-cost-recovery",
+        "title": "Make-ready cost recovery",
+        "originalPath": "/features/make-ready-cost-recovery"
+      },
+      {
+        "id": "attacher-invoice-generation",
+        "title": "Attacher invoice generation",
+        "originalPath": "/features/attacher-invoice-generation"
+      },
+      {
+        "id": "billing-correction-workflow",
+        "title": "Billing correction workflow",
+        "originalPath": "/features/billing-correction-workflow"
+      },
+      {
+        "id": "recovered-revenue-tracking",
+        "title": "Recovered revenue tracking",
+        "originalPath": "/features/recovered-revenue-tracking"
+      },
+      {
+        "id": "ppa-revenue-forecast",
+        "title": "AI · PPA Revenue Forecast",
+        "originalPath": "/features/ppa-revenue-forecast"
+      },
+      {
+        "id": "cost-analysis",
+        "title": "Cost Analysis & Economics",
+        "originalPath": "/features/cost-analysis"
+      },
+      {
+        "id": "ppa-settlement",
+        "title": "AI · PPA Settlement",
+        "originalPath": "/features/ppa-settlement"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "demand-analysis",
+      "tariff-optimization",
+      "power-factor",
+      "utility-statement-matching",
+      "service-address-matching",
+      "duplicate-and-prior-period-detection",
+      "material-quantity-matching",
+      "certificate-issuance-matching",
+      "authorized-attachment-matching",
+      "unauthorized-attachment-detection",
+      "data-handling-error-detection",
+      "pressure-management-analysis",
+      "degradation-forecast",
+      "soh-trend",
+      "end-of-life-classify",
+      "soc-predict",
+      "load-forecasting",
+      "fault-detection",
+      "equipment-failure",
+      "production-forecasting",
+      "pipeline-rupture",
+      "near-miss",
+      "predictive",
+      "consumption-forecast",
+      "solar-forecast",
+      "rate-optimization",
+      "battery-optimization",
+      "load-shifting-optimizer",
+      "consumptionforecast-predict-energy-use",
+      "solarforecast-generation-prediction",
+      "weather-forecasts",
+      "forecast-generation",
+      "curtailment-optimize",
+      "root-cause-analyzer",
+      "asset-deg-trend",
+      "intraday-forecast",
+      "soiling-icing-detect"
+    ],
+    "ai": true,
+    "representativeId": "demand-analysis",
+    "description": "One assistant for 37 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "demand-analysis",
+        "title": "Demand-Charge Analysis",
+        "originalPath": "/features/demand-analysis"
+      },
+      {
+        "id": "tariff-optimization",
+        "title": "Tariff Optimization Engine",
+        "originalPath": "/features/tariff-optimization"
+      },
+      {
+        "id": "power-factor",
+        "title": "Power-Factor & Reactive-Charge Analysis",
+        "originalPath": "/features/power-factor"
+      },
+      {
+        "id": "utility-statement-matching",
+        "title": "Utility statement matching",
+        "originalPath": "/features/utility-statement-matching"
+      },
+      {
+        "id": "service-address-matching",
+        "title": "Service address matching",
+        "originalPath": "/features/service-address-matching"
+      },
+      {
+        "id": "duplicate-and-prior-period-detection",
+        "title": "Duplicate and prior-period detection",
+        "originalPath": "/features/duplicate-and-prior-period-detection"
+      },
+      {
+        "id": "material-quantity-matching",
+        "title": "Material quantity matching",
+        "originalPath": "/features/material-quantity-matching"
+      },
+      {
+        "id": "certificate-issuance-matching",
+        "title": "Certificate issuance matching",
+        "originalPath": "/features/certificate-issuance-matching"
+      },
+      {
+        "id": "authorized-attachment-matching",
+        "title": "Authorized attachment matching",
+        "originalPath": "/features/authorized-attachment-matching"
+      },
+      {
+        "id": "unauthorized-attachment-detection",
+        "title": "Unauthorized attachment detection",
+        "originalPath": "/features/unauthorized-attachment-detection"
+      },
+      {
+        "id": "data-handling-error-detection",
+        "title": "Data handling error detection",
+        "originalPath": "/features/data-handling-error-detection"
+      },
+      {
+        "id": "pressure-management-analysis",
+        "title": "Pressure management analysis",
+        "originalPath": "/features/pressure-management-analysis"
+      },
+      {
+        "id": "degradation-forecast",
+        "title": "AI · Degradation Forecast",
+        "originalPath": "/features/degradation-forecast"
+      },
+      {
+        "id": "soh-trend",
+        "title": "AI · SoH Trend",
+        "originalPath": "/features/soh-trend"
+      },
+      {
+        "id": "end-of-life-classify",
+        "title": "End of life classify",
+        "originalPath": "/features/end-of-life-classify"
+      },
+      {
+        "id": "soc-predict",
+        "title": "Soc predict",
+        "originalPath": "/features/soc-predict"
+      },
+      {
+        "id": "load-forecasting",
+        "title": "Load Forecasting",
+        "originalPath": "/features/load-forecasting"
+      },
+      {
+        "id": "fault-detection",
+        "title": "Fault Detection",
+        "originalPath": "/features/fault-detection"
+      },
+      {
+        "id": "equipment-failure",
+        "title": "Equipment Failure Prediction",
+        "originalPath": "/features/equipment-failure"
+      },
+      {
+        "id": "production-forecasting",
+        "title": "Production Forecasting",
+        "originalPath": "/features/production-forecasting"
+      },
+      {
+        "id": "pipeline-rupture",
+        "title": "Pipeline Rupture Predict",
+        "originalPath": "/features/pipeline-rupture"
+      },
+      {
+        "id": "near-miss",
+        "title": "Near-Miss Severity Predict",
+        "originalPath": "/features/near-miss"
+      },
+      {
+        "id": "predictive",
+        "title": "Predictive",
+        "originalPath": "/features/predictive"
+      },
+      {
+        "id": "consumption-forecast",
+        "title": "Consumption Forecast",
+        "originalPath": "/features/consumption-forecast"
+      },
+      {
+        "id": "solar-forecast",
+        "title": "Solar Forecast",
+        "originalPath": "/features/solar-forecast"
+      },
+      {
+        "id": "rate-optimization",
+        "title": "Rate Optimization",
+        "originalPath": "/features/rate-optimization"
+      },
+      {
+        "id": "battery-optimization",
+        "title": "Battery Optimization",
+        "originalPath": "/features/battery-optimization"
+      },
+      {
+        "id": "load-shifting-optimizer",
+        "title": "load shifting optimizer",
+        "originalPath": "/features/load-shifting-optimizer"
+      },
+      {
+        "id": "consumptionforecast-predict-energy-use",
+        "title": "consumptionforecast predict energy use",
+        "originalPath": "/features/consumptionforecast-predict-energy-use"
+      },
+      {
+        "id": "solarforecast-generation-prediction",
+        "title": "solarforecast generation prediction",
+        "originalPath": "/features/solarforecast-generation-prediction"
+      },
+      {
+        "id": "weather-forecasts",
+        "title": "Weather Forecasts",
+        "originalPath": "/features/weather-forecasts"
+      },
+      {
+        "id": "forecast-generation",
+        "title": "AI · Forecast Generation",
+        "originalPath": "/features/forecast-generation"
+      },
+      {
+        "id": "curtailment-optimize",
+        "title": "AI · Curtailment Optimize",
+        "originalPath": "/features/curtailment-optimize"
+      },
+      {
+        "id": "root-cause-analyzer",
+        "title": "AI · Root Cause Analyzer",
+        "originalPath": "/features/root-cause-analyzer"
+      },
+      {
+        "id": "asset-deg-trend",
+        "title": "AI · Asset Deg Trend",
+        "originalPath": "/features/asset-deg-trend"
+      },
+      {
+        "id": "intraday-forecast",
+        "title": "Intraday forecast",
+        "originalPath": "/features/intraday-forecast"
+      },
+      {
+        "id": "soiling-icing-detect",
+        "title": "Soiling icing detect",
+        "originalPath": "/features/soiling-icing-detect"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "history"
+    ],
+    "ai": true,
+    "representativeId": "history",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "history",
+        "title": "History",
+        "originalPath": "/features/history"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "app": "energy-platform",
+  "features": 469,
+  "sourceApps": 27,
+  "calculatorEngines": 0,
+  "registryHash": "d23151fb10d27e05187fd23c5e66c33b99a00dac3e65a5cc602772dc147960fb",
+  "builtAt": "2026-09-07T22:05:47.175Z",
+  "status": "built"
+}

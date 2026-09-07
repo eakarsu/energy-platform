@@ -1,0 +1,164 @@
+[
+  {
+    "id": "ai-battery-passport-compliance",
+    "name": "Battery passport compliance",
+    "sourceProject": "ai-battery-passport-compliance",
+    "services": []
+  },
+  {
+    "id": "ai-battery-storage-tolling-settlement",
+    "name": "Battery storage tolling settlement",
+    "sourceProject": "ai-battery-storage-tolling-settlement",
+    "services": []
+  },
+  {
+    "id": "ai-commercial-utility-bill-tariff-recovery",
+    "name": "Commercial utility bill tariff recovery",
+    "sourceProject": "ai-commercial-utility-bill-tariff-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-community-solar-subscriber-credit-reconciliation",
+    "name": "Community solar subscriber credit reconciliation",
+    "sourceProject": "ai-community-solar-subscriber-credit-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-demand-response-capacity-payment-recovery",
+    "name": "Demand response capacity payment recovery",
+    "sourceProject": "ai-demand-response-capacity-payment-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-electricity-demand-data-center-load-planner",
+    "name": "Electricity demand data center load planner",
+    "sourceProject": "ai-electricity-demand-data-center-load-planner",
+    "services": []
+  },
+  {
+    "id": "ai-ev-charging-roaming-settlement-reconciliation",
+    "name": "Ev charging roaming settlement reconciliation",
+    "sourceProject": "ai-ev-charging-roaming-settlement-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-grid-interconnection-queue-management",
+    "name": "Grid interconnection queue management",
+    "sourceProject": "ai-grid-interconnection-queue-management",
+    "services": []
+  },
+  {
+    "id": "ai-industrial-gas-invoice-contract-audit",
+    "name": "Industrial gas invoice contract audit",
+    "sourceProject": "ai-industrial-gas-invoice-contract-audit",
+    "services": []
+  },
+  {
+    "id": "ai-midstream-gathering-processing-deduction-audit",
+    "name": "Midstream gathering processing deduction audit",
+    "sourceProject": "ai-midstream-gathering-processing-deduction-audit",
+    "services": []
+  },
+  {
+    "id": "ai-municipal-utility-franchise-fee-audit",
+    "name": "Municipal utility franchise fee audit",
+    "sourceProject": "ai-municipal-utility-franchise-fee-audit",
+    "services": []
+  },
+  {
+    "id": "ai-natural-gas-imbalance-pipeline-settlement",
+    "name": "Natural gas imbalance pipeline settlement",
+    "sourceProject": "ai-natural-gas-imbalance-pipeline-settlement",
+    "services": []
+  },
+  {
+    "id": "ai-oil-gas-joint-interest-billing-audit",
+    "name": "Oil gas joint interest billing audit",
+    "sourceProject": "ai-oil-gas-joint-interest-billing-audit",
+    "services": []
+  },
+  {
+    "id": "ai-oil-gas-royalty-owner-audit",
+    "name": "Oil gas royalty owner audit",
+    "sourceProject": "ai-oil-gas-royalty-owner-audit",
+    "services": []
+  },
+  {
+    "id": "ai-oilfield-service-ticket-invoice-audit",
+    "name": "Oilfield service ticket invoice audit",
+    "sourceProject": "ai-oilfield-service-ticket-invoice-audit",
+    "services": []
+  },
+  {
+    "id": "ai-pipeline-integrity-phmsa-compliance",
+    "name": "Pipeline integrity phmsa compliance",
+    "sourceProject": "ai-pipeline-integrity-phmsa-compliance",
+    "services": []
+  },
+  {
+    "id": "ai-renewable-energy-certificate-settlement",
+    "name": "Renewable energy certificate settlement",
+    "sourceProject": "ai-renewable-energy-certificate-settlement",
+    "services": []
+  },
+  {
+    "id": "ai-renewable-ppa-settlement-curtailment-recovery",
+    "name": "Renewable ppa settlement curtailment recovery",
+    "sourceProject": "ai-renewable-ppa-settlement-curtailment-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-solar-om-performance-guarantee-recovery",
+    "name": "Solar om performance guarantee recovery",
+    "sourceProject": "ai-solar-om-performance-guarantee-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-underground-storage-tank-compliance",
+    "name": "Underground storage tank compliance",
+    "sourceProject": "ai-underground-storage-tank-compliance",
+    "services": []
+  },
+  {
+    "id": "ai-utility-pole-attachment-rent-recovery",
+    "name": "Utility pole attachment rent recovery",
+    "sourceProject": "ai-utility-pole-attachment-rent-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-water-utility-nonrevenue-water-recovery",
+    "name": "Water utility nonrevenue water recovery",
+    "sourceProject": "ai-water-utility-nonrevenue-water-recovery",
+    "services": []
+  },
+  {
+    "id": "AIBatteryLifecycleManager",
+    "name": "Battery lifecycle manager",
+    "sourceProject": "AIBatteryLifecycleManager",
+    "services": []
+  },
+  {
+    "id": "AIEnergyGridOptimizer",
+    "name": "Energy grid optimizer",
+    "sourceProject": "AIEnergyGridOptimizer",
+    "services": []
+  },
+  {
+    "id": "AIOilGasWellProductionForecaster",
+    "name": "Oil gas well production forecaster",
+    "sourceProject": "AIOilGasWellProductionForecaster",
+    "services": []
+  },
+  {
+    "id": "AISmartHomeEnergyOptimizer",
+    "name": "Smart home energy optimizer",
+    "sourceProject": "AISmartHomeEnergyOptimizer",
+    "services": []
+  },
+  {
+    "id": "AIWindSolarFarmOps",
+    "name": "Wind solar farm ops",
+    "sourceProject": "AIWindSolarFarmOps",
+    "services": []
+  }
+]
