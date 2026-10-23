@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-battery-assets",
+      "feature": "battery-asset-registry",
+      "title": "Battery asset registry insight",
+      "focus": "Summarize battery asset records: totals, status mix, field coverage and recent assets."
+    },
+    {
+      "id": "insight-capacity",
+      "feature": "capacity-commitment",
+      "title": "Capacity commitments insight",
+      "focus": "Summarize capacity commitment records: totals, status mix, field coverage and recent commitments."
+    },
+    {
+      "id": "insight-settlement",
+      "feature": "settlement-statement-matching",
+      "title": "Settlement matching insight",
+      "focus": "Summarize settlement statement matching records: totals, status mix, field coverage and recent statements."
+    }
+  ]
+}
